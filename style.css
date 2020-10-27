@@ -1,0 +1,23 @@
+footer {
+  background-color: #DEECF7;
+}
+
+.image_footer {
+  width: 20%;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_text {
+  padding-right: 15px;
+}
+
+.footer_text a {
+  text-decoration: none;
+  color: black;
+}
