@@ -1,8 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Helvetica neue LT', sans-serif;
 }
-
 
 .navbar {
   display: flex;
@@ -26,6 +26,10 @@
   display: inline-block;
 }
 
+.menu ul li:hover {
+  background-color: #06D6A0;
+}
+
 .menu ul li a {
   text-decoration: none;
   color: black
@@ -33,7 +37,12 @@
 
 .sub_menu {
   display: none;
-  text-align: center;
+  text-align: justify;
+  padding-left: 20px;
+  position: absolute;
+  right: 8%;
+  background-color: #fafafa;
+  width: 20%;
 }
 
 .menu ul li:hover ul {
