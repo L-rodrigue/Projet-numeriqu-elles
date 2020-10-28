@@ -4,6 +4,10 @@
   font-family: 'Helvetica neue LT', sans-serif;
 }
 
+footer {
+  background-color: #DEECF7;
+}
+
 .navbar {
   display: flex;
 }
@@ -87,7 +91,160 @@
 .trait {
   position: absolute;
   border-left: 12px solid #62D3A4;
-	height: 120px;
+  height: 120px;
   transform: rotate(90deg);
   margin: 255px 170px;
 }
+
+.flexbox {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+
+.purple {
+  color: #67328D;
+  font-size: 24px;
+}
+
+.green {
+  color: #62D3A4;
+  font-size: 24px;
+}
+
+.findings {
+  width: 40%;
+  padding-top: 40px;
+}
+
+.goals {
+  width: 40%;
+  background-color: #DEECF7;
+  padding-top: 20px;
+}
+
+.flexbox_edition {
+  display: flex;
+  justify-content: space-around;
+}
+
+.programme {
+  width: 30%;
+  line-height: 30px;
+}
+
+.programme li {
+  padding-top: 10px;
+}
+
+.list {
+  width: 20%;
+  background-color: #DEECF7;
+  padding-left: 30px;
+  line-height: 40px;
+}
+
+.green_list {
+  color: #62D3A4;
+}
+
+.flexbox_opportunities {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.list_opportunities {
+  padding-top: 30px;
+  line-height: 30px;
+  width: 30%;
+  padding-bottom: 20px;
+}
+
+.list_opportunities li {
+  padding-top: 10px;
+}
+
+.flexbox_workshop {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.workshop {
+  width: 20%;
+}
+
+.event{
+  background-color: #DEECF7;
+}
+
+.title_event {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.flexbox_event {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+
+.event_green {
+  color: #62D3A4;
+  font-size: 54px;
+}
+
+.event_text {
+  width: 20%;
+}
+
+.flexbox_organization {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.purple_organization {
+  text-align: center;
+  color: #67328D;
+}
+
+.list_organization {
+  text-align: justify;
+  padding-top: 30px;
+  width: 40%;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+
+.list_organization li {
+  padding-top: 10px;
+}
+
+.partners {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.image_footer {
+  width: 20%;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_text {
+  padding-right: 15px;
+  padding-top: 15px;
+}
+
+.footer_text a {
+  text-decoration: none;
+  color: black;
