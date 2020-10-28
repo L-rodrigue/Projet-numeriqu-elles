@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="numeriqu-elles-lille.css">
+    <link rel="stylesheet" href="numeriqu-elles.css">
     <title>Numeriqu'elles Lille</title>
 </head>
 
