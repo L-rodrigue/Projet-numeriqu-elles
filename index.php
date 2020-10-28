@@ -32,6 +32,7 @@
       </section>
       <div class="header_bottom">
         <img class="rectangle" src="images/Rectangle.svg" alt="Rectangle bleu">
+        
         <div class="title">
           <p>édition</p>
           <p>En distanciel</p>

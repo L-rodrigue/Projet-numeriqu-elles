@@ -248,3 +248,30 @@ footer {
 .footer_text a {
   text-decoration: none;
   color: black;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .goals {
+    width: 50%;
+  }
+
+  .list {
+    width: 40%;
+  }
+
+  .programme {
+    line-height: normal;
+  }
+
+  .list_opportunities {
+    line-height: normal;
+  }
+
+  .purple {
+    font-size: 18px;
+  }
+
+  .list_organization {
+    line-height: normal;
+  }
+}
