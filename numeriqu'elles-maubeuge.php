@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="numeriqu-elles-maubeuge.css">
+    <title>Numeriqu'elles Lille</title>
+</head>
 <?php
     require_once('header.html');
 ?>
