@@ -135,8 +135,6 @@
             <img class="header" src="les_photos_drive/header_edition.jpg" alt="photo jeunes éléves">
             <img class="partners" src="les_photos_drive/logo_partenaire.png" alt="logo partenaires">
 
-
-
         <?php
         require_once('footer.html');
         ?>
