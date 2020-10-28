@@ -7,6 +7,9 @@
   <title>NUMERIQU'ELLES</title>
 </head>
 <body>
+<?php
+  require_once('header.html');
+?>
   <div>
     <h1>Ambassadrices <span>du </span>numérique</h1>
   </div>
@@ -34,5 +37,8 @@
       <li>le formulaire d’autorisation de captation de la voix et de l’image de l’élève dans le cas d’une vidéo</li>
     </ul>
   </div>
+  <?php
+  require_once('footer.html');
+  ?>
 </body>
 </html>
