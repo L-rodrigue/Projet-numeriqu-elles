@@ -11,6 +11,7 @@
     require_once('header.html');
 ?>
 
+<<<<<<< HEAD
     <h1>Numeriqu'<span>Elles </span>Maubeuge</h1>
     <div class='section'>
         <p class='text'>Inscription via ce lien</p>
@@ -84,6 +85,21 @@
             <input type="button" value="Télécharger le questionnaire">
         </div>
     </div>
+=======
+    <p>Numeriqu'<span>Elles </span>Lille</p>
+    <p>Inscription via ce lien</p>
+    <input type="button" value="Cliquez ici">
+    <p>Salon virtuel</p>
+    <input type="button" value="Cliquez ici">
+    <p>Collège rendez-vous à 9h00</p>
+    <p>Lycée rendez-vous à 14h00</p>
+    <p>Les ateliers partenaires</p>
+
+
+    <p>Questionnaire de satisfaction</p>
+    <p>Pour nous aider a améliorer nos atelier, veuillez répondre au questionnaire de satifaction qui est anonyme, en le téléchargeant ci-dessous et en le renvoyant à Maleka a l'adressse mail suivant:</p>
+    <input type="button" value="Télécharger le questionnaire">
+>>>>>>> 69bf3736956b17971f4e72ac17721ea40d351fb3
 <?php
     require_once('footer.html');
 ?>
