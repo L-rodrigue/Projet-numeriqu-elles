@@ -74,3 +74,41 @@ p{
     width: 40%;
     padding:  0 100px;
 }
+
+
+@media screen and (max-width: 376px){
+    p {
+        font-size: 12px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 18px;
+        margin-left: 0;
+    }
+    .lock{
+        font-size: 12px;
+        margin-left: 0;
+    }
+    .text{
+        font-size: 12px;
+        margin: 0 50px;
+    }
+    .pdf{
+        font-size: 12px;
+    }
+    .text-satifaction{
+        padding: 0;
+    }
+    .container{
+        height: 150px;
+        width: 350px;
+        padding: 10%;
+    }
+    .text-satifaction{
+        width: 100%;
+    }
+    
+}
+
