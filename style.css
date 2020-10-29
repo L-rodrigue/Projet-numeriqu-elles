@@ -258,6 +258,7 @@ footer {
   color: black;
 }
 
+
 @media screen and (max-width: 768px) {
   .menu {
     display: none;
@@ -297,6 +298,7 @@ footer {
 
   .title {
     margin: 75px 15px;
+    font-size: 14px;
   }
 
   .trait {
@@ -318,6 +320,52 @@ footer {
   top: 33px;
   right: 0;
   padding: 0 20px;
+}
+
+.findings {
+  width: 40%;
+  font-size: 12px;
+}
+
+.goals {
+  width: 50%;
+  font-size: 12px;
+}
+
+.purple {
+  font-size: 16px;
+}
+
+.programme {
+  width: 45%;
+  font-size: 12px;
+}
+
+.list {
+  width: 30%;
+  font-size: 12px;
+}
+
+.list_opportunities {
+  font-size: 12px;
+  width: 60%;
+}
+
+.event_green {
+  font-size: 24px;
+}
+
+.flexbox_event {
+  font-size: 12px;
+}
+
+.purple_organization {
+  font-size: 16px;
+}
+
+.list_organization {
+  font-size: 12px;
+  width: 60%;
 }
 
 .list_mobile ul li {
@@ -347,5 +395,30 @@ nav ul {
 .sub_menu_mobile {
   display: none;
 }
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .goals {
+    width: 50%;
+  }
+
+  .list {
+    width: 40%;
+  }
+
+  .programme {
+    line-height: normal;
+  }
+
+  .list_opportunities {
+    line-height: normal;
+  }
+
+  .purple {
+    font-size: 18px;
+  }
+
+  .list_organization {
+    line-height: normal;
+  }
 
 }
