@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="numeriqu-elles.css">
-    <title>Numeriqu'elles Boulogne</title>
+    <title>Numeriqu'elles lille</title>
 </head>
 
 <body>
@@ -137,9 +137,9 @@ l’envoyer à l’adresse mail de maleka :mdilmi@corif.fr
             <p>Pour nous aider a améliorer nos atelier, veuillez répondre au questionnaire de satifaction qui est
                 anonyme, en le
                 téléchargeant ci-dessous et en le renvoyant à Maleka a l'adressse mail suivant:</p>
+                <a href="https://drive.google.com/file/d/1PFpiost2ZQtKJQVrMep0qgHCOM3Ju9aC/view?usp=sharing "><input type="button" value="Télécharger le questionnaire"></a>
         </div>
-        <div>
-            <a href="https://drive.google.com/file/d/1PFpiost2ZQtKJQVrMep0qgHCOM3Ju9aC/view?usp=sharing "><input type="button" value="Télécharger le questionnaire"></a>
+        <div class= "pdf">
         </div>
     </div>
     <?php
