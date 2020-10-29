@@ -5,13 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="numeriqu-elles.css">
-    <title>Numeriqu'elles Lille</title>
+    <title>Numeriqu'elles Maubeuge</title>
 </head>
 <?php
     require_once('header.html');
 ?>
 
-<<<<<<< HEAD
     <h1>Numeriqu'<span>Elles </span>Maubeuge</h1>
     <div class='section'>
         <p class='text'>Inscription via ce lien</p>
@@ -25,82 +24,117 @@
     <p class='lock'>Lycée rendez-vous à 14h00</p>
     <h2>Les ateliers partenaires</h2>
 
-    <div class="container">
-    <div>
+    <div class="containers">
+    <div class='container'>
             <a href="https://www.orientoi.fr/"><img src="les_photos_drive/orientoi.png" alt="logo"></a>
             <p> l’atelier <br>
                 Initiation au code et à l'art <br> numérique</p>
         </div>
-        <div>
+        <div class='container'>
             <a href="https://www.gipreussir.fr/"><img src="les_photos_drive/logo_resa.png" alt="logo"></a>
             <p> l’atelier <br>
                 3 témoignages métiers de <br> femmes dans le numérique</p>
         </div>
-        <div>
+        <div class='container'>
             <a href="https://pierre-forest-maubeuge.enthdf.fr/"><img src="les_photos_drive/lycée_maubeuge_logo.jpg" alt="logo"></a>
             <p> l’atelier <br>
             pour SIN : réalisation d'un <br> quizz en amont et réponses <br> au quizz durant les 30 minutes <br> avec échanges.</p>
         </div>
-        <div>
+        <div class='container'>
             <a href="https://www.intechinfo.fr/"><img src="les_photos_drive/logo_intech.png" alt="logo"></a>
             <p> l’atelier <br>
             2 sujets animés par la même <br> personnes à choisir</p>
         </div>
-        <div>
+        <div class='container'>
             <a href="https://www.femmes-ingenieurs.org/"><img src="les_photos_drive/logo_fi.jpg" alt="logo"></a>
             <p> l’atelier <br>
             présentation d'une vidéo de <br> l'ISEN puis témoignages de <br> femmes ingénieures (activité <br> professionnelle et études)</p>
         </div>
-        <div>
+        <div class='container'>
             <a href="https://www.axa.fr/"><img src="les_photos_drive/AXA_Logo.svg" alt="logo"></a>
             <p> l’atelier <br>
                 Quizz sur les différents <br> métiers de l'informatique</p>
         </div>
-        <div>
+        <div class='container'>
             <a href="https://www.axa.fr/"><img src="les_photos_drive/AXA_Logo.svg" alt="logo"></a>
             <p> l’atelier <br>
                 Deux équipes doivent <br> répondre à différents types <br> de questions, et battre "un dragon"</p>
         </div>
-        <div>
+        <div class='container'>
             <a href="https://e-catalyst.fr/"><img src="les_photos_drive/logo_catalyst.png" alt="logo"></a>
             <p> l’atelier <br>
                 - Une série de  vidéos d'environ 1min à 1min30 <br> chacune de présentation de l'équipe évoquant leur métier. <br>
                 - Un sous atelier collaboratif pour imaginer les métiers <br> du numérique de demain ou <br> une visite virtuelle sur la sensibilisation<br>  autour des bonnes pratiques du numérique <br>
                 - Un quizz pour finaliser l'atelier <br> sur les bonnes pratiques du numérique</p>
         </div>
-        <div>
+        <div class='container'>
             <a href="https://www.citedesgeometries.org/newcdg/"><img src="les_photos_drive/logo_geometris.png" alt="logo"></a>
             <p> l’atelier <br>
                 Atelier virtuel de la découpeuse graveuse <br> laser imprimante 3D et brodeuse numérique</p>
         </div>
     </div>
+    <h2>le programme de votre établissement</h2>
+    <div class='section2'>
+   <p> Merci de veiller à ce que toutes les contraintes techniques soient prises en compte avant le jour J afin que nous puissions tous profiter de ce forum dans les meilleures conditions.
+Nous comptons sur les encadrants pour jouer le rôle de modérateur afin d’animer et réguler les échanges en collaboration avec nos partenaires sur les ateliers.
+Les jeunes filles pourront devenir « Ambassadrices du numérique » (lien vers page ambassadrices) en participant à ce nouveau concours.
+Enfin, si certaines d’entre elles souhaitent prolonger leur expérience du numérique, elles pourront trouver un stage proposé par nos entreprises partenaires (en fonction de l’évolution de la crise sanitaire) (lien vers page stage).</p>
+
+<p>Les collèges
+8H30-9H00 : Début des connexions (tests de connexion, audio et vidéo)
+9H00-9H30 : Séance plénière afin d’introduire et de présenter l’organisation du forum
+9H30-12H00 : 4 à 5 ateliers pour découvrir le numérique en respectant votre planning
+12H00-12H15 : Mot de la fin
+Planning Collège 1
+Planning Collège 2
+Planning Collège 3
+</p> 
+<p>
+Les Lycées
+13H30-14H00 : Début des connexions (tests de connexion, audio et vidéo)
+14H00-14H30 : Séance plénière afin d’introduire et de présenter l’organisation du forum
+14H30-17H00 : 4 à 5 ateliers pour découvrir le numérique en respectant votre planning
+17H00-17H15 : Mot de la fin
+Planning Lycée 1
+Planning Lycée2
+...
+</p>
+
+    </div>
+    <div class='section'>
+        <p class='text'>Salon virtuel</p>
+        <input type="button" value="Cliquez ici">
+    </div>
+    <div>
+    <p>Si vous rencontrez des difficultés à vous connecter au salon virtuel, consultezle PDF
+Par mesure de sécurité, si la visioconférence VIA n’est pas fonctionnelle,
+les partenaires ont prévu un lien Teams de secours pour proposer leur atelier. 
+Merci de vérifier que l’accès à Teams est possible sur le réseau de votre établissement.
+</p>
+ </div>
+</div>
+<div>
+    <p>
+        N’oubliez pas de faire remplir le questionnaire de satisfaction par vos élèves. 
+</p>
+<p>
+l’envoyer à l’adresse mail de maleka :mdilmi@corif.fr
+</p>
+</div>
     <h2>Questionnaire de satisfaction</h2>
     <div class='satifaction'>
         <div class='text-satifaction'>
             <p>Pour nous aider a améliorer nos atelier, veuillez répondre au questionnaire de satifaction qui est
                 anonyme, en le
                 téléchargeant ci-dessous et en le renvoyant à Maleka a l'adressse mail suivant:</p>
+                <a href="https://drive.google.com/file/d/1PFpiost2ZQtKJQVrMep0qgHCOM3Ju9aC/view?usp=sharing "><input type="button" value="Télécharger le questionnaire"></a>
         </div>
-        <div>
-            <input type="button" value="Télécharger le questionnaire">
+        <div class= "pdf">
         </div>
     </div>
-=======
-    <p>Numeriqu'<span>Elles </span>Lille</p>
-    <p>Inscription via ce lien</p>
-    <input type="button" value="Cliquez ici">
-    <p>Salon virtuel</p>
-    <input type="button" value="Cliquez ici">
-    <p>Collège rendez-vous à 9h00</p>
-    <p>Lycée rendez-vous à 14h00</p>
-    <p>Les ateliers partenaires</p>
-
-
-    <p>Questionnaire de satisfaction</p>
-    <p>Pour nous aider a améliorer nos atelier, veuillez répondre au questionnaire de satifaction qui est anonyme, en le téléchargeant ci-dessous et en le renvoyant à Maleka a l'adressse mail suivant:</p>
-    <input type="button" value="Télécharger le questionnaire">
->>>>>>> 69bf3736956b17971f4e72ac17721ea40d351fb3
-<?php
+    <?php
     require_once('footer.html');
 ?>
+</body>
 
+</html>
