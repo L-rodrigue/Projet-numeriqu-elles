@@ -18,6 +18,10 @@
     <h1>Numériqu’Elles: la genèse</h1>
   </div>
 
+<div class="stage_picture">
+  <img src="les_photos_drive\photo-page_stage.jpg" alt="présentation d'un stande axa">
+</div>
+
   <div class="first_paragraph">
     <p>Dans le cadre, d’un projet de recherche InserNum, le corif grâce aux
       financements de la Région et Etat a proposé en 2015 de mettre en place avec
