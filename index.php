@@ -31,8 +31,9 @@
         </div>
       </section>
       <div class="header_bottom">
+        <img class="rectangle_mobile" src="images/Rectangle_mobile.svg" alt="rectangle bleu">
         <img class="rectangle" src="images/Rectangle.svg" alt="Rectangle bleu">
-        
+
         <div class="title">
           <p>édition</p>
           <p>En distanciel</p>
@@ -80,6 +81,7 @@
 
         </section>
         <div class="header_bottom">
+          <img class="rectangle_mobile" src="images/Rectangle_mobile.svg" alt="rectangle bleu">
           <img class="rectangle" src="images/Rectangle.svg" alt="Rectangle bleu">
           <div class="title">
             <p>Les ateliers</p>
@@ -128,6 +130,7 @@
 
 
           <div class="header_bottom">
+            <img class="rectangle_mobile" src="images/Rectangle_mobile.svg" alt="rectangle bleu">
             <img class="rectangle" src="images/Rectangle.svg" alt="Rectangle bleu">
             <div class="title">
               <p>Nos partenaires</p>
