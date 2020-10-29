@@ -50,7 +50,7 @@ button {
   font-weight: bold;
 }
 
-.send_you_production {
+.send_your_production {
   width: 50%;
   margin-left: 25%;
 }
@@ -61,11 +61,40 @@ button {
   width: 200px;
 }
 
-/* 
-@media screen and (min-width: 992px) and (max-width: 1200px)
+@media screen and (min-width: 769px) and (max-width: 992px) {
 
-@media screen and (min-width: 769px) and (max-width: 992px)
+  .send_your_production {
+    margin-left: 20%;
+  }  
+}
 
-@media screen and (min-width: 375px) and (max-width: 768px)
+@media screen and (min-width: 375px) and (max-width: 768px) {
 
-*/
+  h1 {
+    font-size: 24px;
+    margin: 30px 20px 0 20px;
+  }
+
+  p,
+  li {
+  font-size: 14px;
+  }
+
+  .container_ambassadress {
+    padding: 30px;
+  }
+
+  .logo_equality_girl_boy {
+    padding: 0 70px 20px 0;
+  }
+
+  .send_your_production {
+    width: 75%;
+    margin-left: 8%;
+  }  
+
+  .container_ambassadress li {
+    margin-left: 20px;
+  }
+
+}

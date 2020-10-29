@@ -35,7 +35,7 @@
         <li>- outils disponibles sur l’ENT : Madmagz, mur collaboratif, blog, cahier multimédia, pad</li>
       </ul>
     </div>
-    <div class="send_you_production">
+    <div class="send_your_production">
       <button>Les productions seront à envoyer à l’équipe à l'adresse :</button>
     </div>
     <div>
