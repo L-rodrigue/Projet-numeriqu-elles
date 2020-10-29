@@ -35,8 +35,11 @@
         <li>- outils disponibles sur l’ENT : Madmagz, mur collaboratif, blog, cahier multimédia, pad</li>
       </ul>
     </div>
+    <div>
+      <p>Les productions seront à envoyer à notre équipe:</p>
+    </div>  
     <div class="send_your_production">
-      <button>Les productions seront à envoyer à l’équipe à l'adresse :</button>
+      <button>Cliquez ici:</button>
     </div>
     <div>
       <p>Un jury se réunira courant mars : les réalisations les plus réussies seront récompensées et serviront à la promotion du forum l’année prochaine.</p>

@@ -80,6 +80,10 @@ button {
   font-size: 14px;
   }
 
+  button {
+    margin: 10px;
+  }
+
   .container_ambassadress {
     padding: 30px;
   }
@@ -90,7 +94,7 @@ button {
 
   .send_your_production {
     width: 75%;
-    margin-left: 8%;
+    margin-left: 5%;
   }  
 
   .container_ambassadress li {
