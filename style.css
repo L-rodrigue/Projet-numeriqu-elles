@@ -265,6 +265,7 @@ footer {
 
   .menu_mobile {
     display: block;
+    z-index: 10;
   }
 
   .button_hamburger {
