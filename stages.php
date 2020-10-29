@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
   <title>Stages Numériqu'ELLEs</title>
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="stages_style.css">
 </head>
 
 <body>
@@ -58,6 +58,7 @@
             sont-elles des « handicapées du numérique et de l’informatique » ? Il est vrai que les femmes
             sont aujourd’hui sous-représentées dans les filières du numérique et de l’informatique ; pourtant cela n’a pas toujours été le cas.
             <br>
+            <br>
             En effet, les hommes se sont rapidement emparés du domaine, ils ont commencé par investir ce
             secteur à la fin des années 1940, ce qui a entrainé une invisibilité de Pionnières telles que les
             femmes jusqu’alors actrices de l’informatique et travaillant sur les projets de l’armée
@@ -70,6 +71,7 @@
             formées notamment les filles et les femmes. Or une transition numérique se met en place en
             transformant les métiers et ce dans tous les domaines professionnels (e-learning, robotique,
             objets connectés, smarthpone, big data, réalité augmentée et réalité virtuelle).
+            <br>
             <br>
             Pour combattre les stéréotypes liés au genre et pallier au manque de vocations de la tech chez
             les femmes et pour répondre au besoin initial d’IBM en 2015 de recruter des femmes,
