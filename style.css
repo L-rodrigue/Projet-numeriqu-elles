@@ -12,6 +12,10 @@ footer {
   display: flex;
 }
 
+.menu_mobile {
+  display: none;
+}
+
 .logo {
   width: 20%;
 }
@@ -70,6 +74,10 @@ footer {
 .title p {
   text-transform: uppercase;
   font-size: 2em;
+}
+
+.rectangle_mobile {
+  display: none;
 }
 
 .white {
@@ -248,3 +256,95 @@ footer {
 .footer_text a {
   text-decoration: none;
   color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+
+  .menu_mobile {
+    display: block;
+  }
+
+  .button_hamburger {
+    float: right;
+    width: 10%;
+  }
+
+  .logo {
+    width: 100%;
+  }
+
+  .button_hamburger img {
+    width: 100%;
+  }
+
+  .rectangle {
+    display: none;
+  }
+
+  .rectangle_mobile {
+    display: block;
+    position: absolute;
+    height: 242px;
+  }
+
+  .header {
+    height: 240px;
+  }
+
+  .title {
+    margin: 75px 15px;
+  }
+
+  .trait {
+    margin: 150px 60px;
+    height: 95px;
+  }
+
+  .title p {
+    font-size: 1.2em;
+  }
+
+.list_mobile {
+  display: none;
+  position: absolute;
+  width: 50%;
+  float: none;
+  text-align: center;
+  background-color: #fafafa;
+  top: 33px;
+  right: 0;
+  padding: 0 20px;
+}
+
+.list_mobile ul li {
+  float: none;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.list_mobile ul:hover {
+  display: block;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+.button_hamburger:hover .list_mobile {
+  display: block;
+}
+
+.sub_menu_mobile {
+  display: none;
+}
+
+}
