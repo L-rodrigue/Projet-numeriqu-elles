@@ -7,6 +7,7 @@ h1 {
   text-align: center;
   font-weight: bold;
   font-size: 36px;
+  margin: 50px 20px 20px 20px;
 } 
 
 span {
@@ -16,8 +17,46 @@ span {
 p,
 li {
   font-size: 18px;
+  line-height: 28px;
+}
+
+.container {
+  background-image: url('les_photos_drive/image-se-preparer.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  margin: 50px 0;
+  opacity: 0.9;
 }
 
 .container_prepare_yourself {
-  background-image: url('');
+  display: flex;
+  flex-direction: column;
 }
+
+.container_logo_onisep {
+  background-image: url('les_photos_drive/onisep.png');
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 100px;
+  margin: 15px 70px;
+}
+
+.container_text_prepare_yourself {
+  padding: 10px 70px;
+  font-weight: bold;
+  width: 80%;
+}
+
+.container_text_prepare_yourself > ul > li {
+  list-style-type: none;
+}
+
+/* 
+@media screen and (min-width: 992px) and (max-width: 1200px)
+
+@media screen and (min-width: 769px) and (max-width: 992px)
+
+@media screen and (min-width: 375px) and (max-width: 768px)
+
+*/
