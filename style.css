@@ -8,6 +8,10 @@ footer {
   background-color: #DEECF7;
 }
 
+.logo img {
+  margin: 10px;
+}
+
 .navbar {
   display: flex;
 }
@@ -22,7 +26,7 @@ footer {
 
 .menu {
   width: 70%;
-  margin: 30px auto;
+  margin: 40px auto;
 }
 
 .menu > ul {
@@ -48,7 +52,7 @@ footer {
   text-align: justify;
   padding-left: 20px;
   position: absolute;
-  right: 8%;
+  right: 1%;
   background-color: #fafafa;
   width: 20%;
 }
@@ -73,17 +77,12 @@ footer {
 
 .title p {
   text-transform: uppercase;
-  font-size: 2em;
+  font-weight: bold;
+  font-size: 32px;
 }
 
 .rectangle_mobile {
   display: none;
-}
-
-.white {
-  color: #fafafa;
-  font-weight: 900;
-  font-size: .8em !important;
 }
 
 .header {
