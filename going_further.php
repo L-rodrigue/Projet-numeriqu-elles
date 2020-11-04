@@ -14,6 +14,9 @@
   <div>
     <h1>Devenez Ambassadrices du <span>Numérique</span></h1>
   </div>
+  <div>
+    <img src="les_photos_drive/participantes_numeriquelles_2019.jpg" class="guest_numeriquelles" alt="participantes de Numériqu'elles 2019">
+  </div>
   <div class="container_ambassadress">
     <div>
       <p>Devenez ambassadrices du numérique ! Vous venez de participer au forum Numériqu’elles 2020, il est proposé aux élèves des établissements ayant participé de réaliser une ou plusieurs productions utilisant le numérique pour promouvoir ce secteur auprès des collégiennes et des lycéennes notamment.</p>
@@ -36,16 +39,16 @@
       </ul>
     </div>
     <div>
-      <p>Les productions seront à envoyer à notre équipe:</p>
+      <p>Les productions seront à envoyer à notre équipe. N’hésitez pas à utiliser WeTransfer !</p>
     </div>  
     <div class="send_your_production">
-      <button>Cliquez ici:</button>
+      <button>Cliquez ici !</button>
     </div>
     <div>
       <p>Un jury se réunira courant mars : les réalisations les plus réussies seront récompensées et serviront à la promotion du forum l’année prochaine.</p>
     </div>
     <div>
-      <p class="important_information">Les établissements qui le souhaitent peuvent être accompagnés dans ce projet par la Délégation Académique au Numérique Educatif :  <a href="mailto:ce.dane@ac-lille.fr">ce.dane@ac-lille.fr</a></p>
+      <p class="important_information">Les établissements peuvent utiliser les <a href="https://www.onisep.fr/Pres-de-chez-vous/Hauts-de-France/Amiens/Informations-metiers/Le-numerique-et-l-intelligence-artificielle" target="_blank">ressources de l’ONISEP</a> pour mener à bien ce projet .</p>
     </div>
     <div>
       <p>Chaque production, réalisée en groupe qui pourra être mixte, devra être accompagnée des éléments suivants (qui seront sur l’ENT) :</p>

@@ -61,6 +61,13 @@ button {
   width: 200px;
 }
 
+.guest_numeriquelles {
+  width: 80%;
+  height: 20%;
+  margin-left: 10%;
+  margin-top: 50px;
+}
+
 @media screen and (min-width: 769px) and (max-width: 992px) {
 
   .send_your_production {
