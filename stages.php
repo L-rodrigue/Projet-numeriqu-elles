@@ -31,7 +31,7 @@
       <img src="les_photos_drive/AnoukDesury-Numeriquelles2019-27.jpg" alt="photo">
     </div>
       <a href="https://www.monstageenligne.fr/">
-      <p></p>
+      <p>Trouvez un satge avec Onisep</p>
     </a>
     </div>
     <div class="stage">
