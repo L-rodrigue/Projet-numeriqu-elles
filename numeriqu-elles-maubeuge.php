@@ -77,11 +77,12 @@
             </p>
 
         </div>
-        <div class='section2'>
+        
             <div class="section">
             <p class='text'>Salon virtuel</p>
             <input type="button" value="Cliquez ici">
         </div>
+        <div class='section2'>
         
             <p>Si vous rencontrez des difficultés à vous connecter au salon virtuel, consultezle PDF
                 Par mesure de sécurité, si la visioconférence VIA n’est pas fonctionnelle,
