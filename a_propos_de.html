@@ -8,9 +8,101 @@
   <title>Document</title>
 </head>
 <body>
-<?php
-  require_once('header.html')
-?>
+
+
+<header>
+  <nav class="navbar">
+    <div class="logo">
+      <a href="index.html">
+        <img src="images/logo.svg" alt="Logo numériqu'elles">
+      </a>
+    </div>
+    <div class="menu">
+      <ul>
+        <li>
+          <a href="a_propos_de.html">A propos de</a>
+        </li>
+        <li> <a href="prepare_yoursel.html">Se préparer</a>
+        </li>
+        <li>
+          <a href="going_further.html">Devenir Ambassadrice !</a>
+        </li>
+        <li>
+          <a href="stages.html">Stages</a>
+        </li>
+        <li class="menu_item">
+          <a href="numeriquelles.html">Numériqu'elles</a>
+          <ul class="sub_menu">
+            <li>
+              <a href="numeriqu-elles-lille.html">Numériqu'elles Lille</a>
+            </li>
+            <li>
+              <a href="numeriqu-elles-maubeuge.html">Numériqu'elles Maubeuge</a>
+            </li>
+            <li>
+              <a href="numeriqu-elles-boulogne.html">Numériqu'elles Boulogne</a>
+            </li>
+            <li>
+              <a href="numeriqu-elles-lens.html">Numériqu'elles Lens</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="menu_mobile">
+      <div class="button_hamburger">
+        <img src="les_photos_drive/hamburger_icon.png" alt="menu mobile">
+        <div class="list_mobile">
+          <ul>
+            <li>
+              <a href="a_propos_de.html">A propos de</a>
+            </li>
+            <li> <a href="prepare_yoursel.html">Se préparer</a>
+            </li>
+            <li>
+              <a href="going_further.html">Devenir Ambassadrice !</a>
+            </li>
+            <li>
+              <a href="stages.html">Stages</a>
+            </li>
+            <li class="menu_item_mobile" id="listener">
+              <span>Numériqu'elles</span>
+              <ul class="sub_menu_mobile" id="target">
+                <li>
+                  <a href="numeriqu-elles-lille.html">Numériqu'elles Lille</a>
+                </li>
+                <li>
+                  <a href="numeriqu-elles-maubeuge.html">Numériqu'elles Maubeuge</a>
+                </li>
+                <li>
+                  <a href="numeriqu-elles-boulogne.html">Numériqu'elles Boulogne</a>
+                </li>
+                <li>
+                  <a href="numeriqu-elles-lens.html">Numériqu'elles Lens</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="header_bottom">
+    <img class="rectangle_mobile" src="images/Rectangle_mobile.svg" alt="rectangle bleu">
+    <img class="rectangle" src="images/Rectangle.svg" alt="Rectangle bleu">
+    <div class="title">
+      <p>sensibiliser</p>
+      <p><span class="white">les</span>jeunesfilles</p>
+      <p><span class="white">aux</span>metiers<span class="white">du</span></p>
+      <p>numérique</p>
+    </div>
+    <div class="trait"></div>
+    <img class="header" src="les_photos_drive/photo-header.jpg" alt="photo jeunes éléves">
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+
+</header>
+
   <h1>Numériqu’<span>Elles</span> c’est... </h1>
   <div class="container">
     <div class="picture">
@@ -91,8 +183,27 @@ pourquoi certaines jeunes filles et femmes hésitent encore à choisir des fili�
  jour sousune forme plus collective et en 2018 ce format est dupliqué sur Amiens.
 </p>
 </div>
-<?php
-  require_once('footer.html')
-?>
+<footer>
+    <div class="footer">
+      <div class="image_footer">
+        <img src="les_photos_drive/logo.svg" alt="Logo numériqu'elles">
+      </div>
+      <p></p>
+      <div class="footer_text">
+        <p>
+          <a href="mailto:mailto:murielle.delrot@region-academique-hauts-de-france.fr" target="_blank">Contactez-nous</a>
+        </p>
+        <p>
+          <a href="mentions.html">Mentions légales</a>
+        </p>
+        <p>
+          <a href="review.html">revue de presse</a>
+        </p>
+        <p>
+          <a href="kit_communication.html">kit de communication</a>
+        </p>
+      </div>
+    </div>
+  </footer>
  </body>
 </html>
