@@ -1,0 +1,104 @@
+* {
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+  color: #67328D;
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+  margin: 50px 20px 20px 20px;
+} 
+
+span {
+  color: #62D3A4;
+}
+
+a {
+  color: #67328D;
+  text-decoration: none;
+}
+
+p,
+li {
+  font-size: 18px;
+}
+
+button {
+  background-color: #62D3A4;
+  padding: 15px;
+  margin: 15px;
+  font-weight: bold;
+  border: none;
+  width:100%;
+}
+
+.container_ambassadress {
+  padding: 70px;
+}
+
+.container_ambassadress li {
+  list-style-type: none;
+  margin-left: 40px;
+}
+
+.container_ambassadress div {
+  padding: 20px;
+}
+
+.important_information {
+  font-weight: bold;
+}
+
+.send_your_production {
+  width: 50%;
+  margin-left: 25%;
+}
+
+.logo_equality_girl_boy {
+  float: right;
+  padding-right: 130px;
+  width: 200px;
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+
+  .send_your_production {
+    margin-left: 20%;
+  }  
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+
+  h1 {
+    font-size: 24px;
+    margin: 30px 20px 0 20px;
+  }
+
+  p,
+  li {
+  font-size: 14px;
+  }
+
+  button {
+    margin: 10px;
+  }
+
+  .container_ambassadress {
+    padding: 30px;
+  }
+
+  .logo_equality_girl_boy {
+    padding: 0 70px 20px 0;
+  }
+
+  .send_your_production {
+    width: 75%;
+    margin-left: 5%;
+  }  
+
+  .container_ambassadress li {
+    margin-left: 20px;
+  }
+
+}
