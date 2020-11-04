@@ -90,6 +90,10 @@ footer {
   height: 400px;
 }
 
+.header_bottom {
+  padding-top: 50px;
+}
+
 .rectangle {
   height: 400px;
   position: absolute;
@@ -109,9 +113,17 @@ footer {
   padding-top: 30px;
 }
 
+.flexbox_program {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
 .purple {
   color: #67328D;
-  font-size: 24px;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 35px;
 }
 
 .green {
@@ -121,34 +133,42 @@ footer {
 
 .findings {
   width: 40%;
-  padding-top: 40px;
+  padding-top: 45px;
+}
+
+.findings p {
+  font-size: 18px;
+  line-height: 30px;
 }
 
 .goals {
   width: 40%;
-  background-color: #DEECF7;
   padding-top: 20px;
+}
+
+.goals p {
+  font-size: 18px;
 }
 
 .flexbox_edition {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
 }
 
 .programme {
-  width: 30%;
   line-height: 30px;
+  font-size: 18px;
 }
 
 .programme li {
   padding-top: 10px;
+
 }
 
 .list {
-  width: 20%;
-  background-color: #DEECF7;
-  padding-left: 30px;
-  line-height: 40px;
+  font-size: 18px;
 }
 
 .green_list {
@@ -166,6 +186,7 @@ footer {
   padding-top: 30px;
   line-height: 30px;
   width: 30%;
+  font-size: 18px;
   padding-bottom: 20px;
 }
 
@@ -180,7 +201,7 @@ footer {
 }
 
 .workshop {
-  width: 20%;
+  width: 90%;
 }
 
 .event{
@@ -195,7 +216,7 @@ footer {
 .flexbox_event {
   display: flex;
   justify-content: space-around;
-  padding-top: 30px;
+  padding-top: 100px;
 }
 
 .event_green {
@@ -204,8 +225,15 @@ footer {
 }
 
 .event_text {
-  width: 20%;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
+
+.flexbox_event div {
+  width: 200px;
+  text-align: center;
+}
+
 
 .flexbox_organization {
   display: flex;
@@ -225,6 +253,7 @@ footer {
   width: 40%;
   line-height: 30px;
   padding-bottom: 20px;
+  font-size: 18px;
 }
 
 .list_organization li {
@@ -232,8 +261,9 @@ footer {
 }
 
 .partners {
-  width: 100%;
-  padding-top: 20px;
+  padding-top: 50px;
+  width: 80%;
+  padding-left: 150px;
 }
 
 .image_footer {
@@ -281,6 +311,10 @@ footer {
     width: 100%;
   }
 
+  .flexbox {
+    flex-wrap: wrap;
+  }
+
   .rectangle {
     display: none;
   }
@@ -322,7 +356,11 @@ footer {
 }
 
 .findings {
-  width: 40%;
+  width: 75%;
+  font-size: 12px;
+}
+
+.findings p {
   font-size: 12px;
 }
 
@@ -336,18 +374,27 @@ footer {
 }
 
 .programme {
-  width: 45%;
+  width: 100%;
   font-size: 12px;
 }
 
+.flexbox_program {
+  align-items: center;
+  width: 70%;
+}
+
 .list {
-  width: 30%;
+  width: 80%;
   font-size: 12px;
 }
 
 .list_opportunities {
   font-size: 12px;
   width: 60%;
+}
+
+.flexbox_event {
+  flex-wrap: wrap;
 }
 
 .event_green {
@@ -391,8 +438,16 @@ nav ul {
   display: block;
 }
 
+.flexbox_workshop {
+  flex-wrap: wrap;
+}
+
 .sub_menu_mobile {
   display: none;
+}
+
+.partners {
+  padding-left: 50px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
