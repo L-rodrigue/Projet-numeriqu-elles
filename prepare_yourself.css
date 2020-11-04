@@ -1,0 +1,109 @@
+* {
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+  color: #67328D;
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+  margin: 50px 20px 20px 20px;
+} 
+
+span {
+  color: #62D3A4;
+}
+
+p,
+li {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.container {
+  background: center / cover no-repeat url('les_photos_drive/image-se-preparer.jpg');
+  height: 600px;
+  margin: 50px 0;
+  opacity: 0.9;
+}
+
+.container_prepare_yourself {
+  display: flex;
+  flex-direction: column;
+}
+
+.container_logo_onisep {
+  background-image: url('les_photos_drive/onisep.png');
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 100px;
+  margin: 15px 70px;
+}
+
+.container_text_prepare_yourself {
+  padding: 10px 70px;
+  font-weight: bold;
+  width: 80%;
+}
+
+.container_text_prepare_yourself > ul > li {
+  list-style-type: none;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+  .container {
+    height: 800px;
+  }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  
+  .container {
+    height: 900px;
+  }
+
+  .container_logo_onisep {
+    width: 90%;
+    height: 100px;
+    margin: 15px 50px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+
+  h1 {
+    font-size: 24px;
+    margin: 30px 20px 0 20px;
+  }
+
+  p,
+  li {
+  font-size: 14px;
+  line-height: 20px;
+  }
+
+  .container {
+    height: 900px;
+  }
+
+  .container_logo_onisep {
+    width: 80%;
+    height: 80px;
+    margin: 15px 50px;
+  }
+
+  .container_text_prepare_yourself {
+    padding: 10px 30px;
+  }
+
+  .container_logo_onisep {
+    background-image: url('les_photos_drive/small_logo_onisep.jpeg');
+    width: 50%;
+    height: 150px;
+    margin-left: 30px;
+  }
+
+} 
+
