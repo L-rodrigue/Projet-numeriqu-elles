@@ -1,19 +1,98 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="a_propos_de.css">
+  <title>Document</title>
+</head>
+<body>
+<?php
+  require_once('header.html')
+?>
+  <h1>Numériqu’<span>Elles</span> c’est... </h1>
+  <div class="container">
+    <div class="picture">
+      <img src="les_photos_drive/a_propos_first.jpg" alt="photo">
+    </div>
+    <div class="text">
+      <p>
+        Promotion des études et métiers du numérique auprès des collégiennes et lycéennes des Hauts de France
+      </p>
+    
+     <p>
+       Sensibiliser davantage de jeunes filles en démultipliant Numériqu’Elles sur plusieurs sites des Hauts de France 
+      </p>
+    </div>
+  </div>
+  <h2>Numériqu’<span>Elles</span>: la genèse</h2>
+  <div class="contenu">
+    <p>Dans le cadre, d’un projet de recherche InserNum, le corif
+       grâce aux financements de la Région et Etat a proposé en 2015 de mettre en place avec 
+       IBM une première Edition Numériqu’ELLES en 2015. Soutenu par l’ETAT DRDFE, la Région HDF,
+        le Départements Numériqu’ELLES se démultiplient sur les HDF.</p>
+  </div>
+  <h2>Notre savoir faire</h2>
+  <div class="contenu">
+    <p>La première édition de Numériqu’Elles est organisée à Lille, et reprise les années suivantes en associant de nouveaux partenaires tout en perfectionnant
+       l’organisation grâce notamment au questionnaire de satisfaction complété par les élèves. Chaque année le CORIF se charge de les dépouiller. 
+La découverte des métiers du numérique est appréhendée par des témoignages et des ateliers pratiques dans différents stands.</p>
+  </div>
+<div class="container">
+  <div class="picture">
+    <img src="images/carte-nord.png" alt="photo">
+  </div>
+  <div class="text_about">
+    <p>
+    Aujourd’hui 7 Numériqu’ELLES sont organisés sur le territoire des HDF
+    </p>
+    <p>
+    20 entreprises s’engagent dans cette action et s’engagent également à accepter des élèves en stage
+    </p>
+    <p>
+    10 organismes de formation s’engagent aussi 
+Le département du Nord s’engage ainsi que les communautés d’agglomérations …
 
-<html lang="fr" dir="ltr">
-
-
-  <head>
-    <meta charset="utf-8">
-    <title>à propos de Numériqu'ELLEs</title>
-  </head>
-
-  <body>
-    <header>
-
-    </header>
-
-
-    <footer></footer>
-  </body>
+    </p>
+  </div>
+</div>
+<h2>Pourquoi Numériqu’<span>ELLES</span></h2>
+<div class="container_text">
+  <p>
+  Pourquoi les femmes renoncent-elles aux métiers du numérique et de l’informatique ? Les filles
+sont-elles des « handicapées du numérique et de l’informatique » ? Il est vrai que les femmes
+sont aujourd’hui sous-représentées dans les filières du numérique et de l’informatique ; pourtant cela n’a pas toujours été le cas.
+  </p>
+  <p>
+En effet, les hommes se sont rapidement emparés du domaine, ils ont commencé par investir ce
+secteur à la fin des années 1940, ce qui a entrainé une invisibilité de Pionnières telles que les
+femmes jusqu’alors actrices de l’informatique et travaillant sur les projets de l’armée
+américaine (ENIAC) Grace Hopper ou Ada Lovelace. Ces dernières ont été écartées de
+l’histoire au profit de certains hommes tels que Bill Gates ou Steve Jobs. Pourtant, les premières
+personnes à programmer étaient des femmes. Or aujourd’hui, elles ne représentent que 9 %
+dans les métiers de l’informatique. Alors que les entreprises recherchent environ 3000 postes
+non pourvus par an notamment pour les postes d’informaticien.ne, de développeur.e, expert.e
+sécurité, de gestionnaire des infrastructures, celles-ci sont freinées par le manque de personnes
+formées notamment les filles et les femmes. Or une transition numérique se met en place en
+transformant les métiers et ce dans tous les domaines professionnels (e-learning, robotique,
+objets connectés, smarthpone, big data, réalité augmentée et réalité virtuelle).
+</p>
+<p>
+Pour combattre les stéréotypes liés au genre et pallier au manque de vocations de la tech chez
+les femmes et pour répondre au besoin initial d’IBM en 2015 de recruter des femmes,
+CORIF/IBM avons imaginé un évènement pour les sensibiliser, les informer et leur donner
+envie de découvrir, initier des vocations en proposant des modèles identificatoires ainsi que
+d’explorer les différentes facettes des métiers. Car certains stéréotypes ont la vie dure, c’est
+pourquoi certaines jeunes filles et femmes hésitent encore à choisir des filières du IT. Ce constata
+ permis l’émergence de Numériqu’Elles. Cet évènement a été imaginé pour répondre auxbesoins
+ de recruter de nouveaux talents (femmes) pour IBM mais très vite d’autres entrepriseset partenaires de nous rejoint.
+  C’est en 2016 que le second Numériqu’Elles a vu le 
+ jour sousune forme plus collective et en 2018 ce format est dupliqué sur Amiens.
+</p>
+</div>
+<?php
+  require_once('footer.html')
+?>
+ </body>
 </html>
