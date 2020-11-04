@@ -1,65 +1,65 @@
-p{
-    font-size: 14px;
-}
-
-.container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    text-align: center;
-}
-.container img{
-    width: 235px;
-    margin: 80px 0;
-    height: 100px;
-}
 h1{
     color: #67328D;
-    font-size: 36px;
+    font-size: 32px;
     font-weight: bold;
     text-align: center;
     margin-top: 90px;
     margin-bottom: 200px;
 }
-
 h1 span{
     color: #06D6A0;
 }
-
-.text{
-    font-size: 24px;
+h2{
+    color: #67328D;
     margin-left: 90px;
-}
-
-.section {
-    width: 40%;
-    padding: 40px 0;
-    display: flex;
-    justify-content: ;
-}
-.section > *{
-    display: inline-block;
-    
+    margin-top: 60px;
+    font-size: 28px;
+    text-align: center;
 }
 input{
     background-color: #DEECF7;
     padding: 10px;
     border-radius: 10%;
     font-size: 18px;
+    height: 40px;
 }
-
-.lock{
-    font-size: 24px;
-    margin-left: 150px;
-    padding: 40px;
+p{
+    font-size: 18px;
 }
-
-h2{
+span {
     color: #67328D;
-    margin-left: 90px;
-    margin-top: 60px;
-    font-size: 24px;
+}
+.containers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     text-align: center;
+}
+.container{
+    height: 120px;
+    width: 120px;
+    padding: 2%;
+    margin: 20px 50px;
+}
+.containers .container img{
+    max-height: 100%;
+    max-width: 100%;
+}
+.text{
+    font-size: 24px;
+    margin-left: 90px;
+    margin-right: 50px;
+}
+.section {
+    width: 50%;
+    display: flex;
+}
+.section2{
+    margin: 20px 10%;
+}
+.section2 p {
+    margin-top: 50px;
+    line-height: 30px;
 }
 .satifaction{
     display: flex;
@@ -69,3 +69,34 @@ h2{
     width: 40%;
     padding:  0 100px;
 }
+@media screen and (max-width: 376px){
+    p {
+        font-size: 12px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 18px;
+        margin-left: 0;
+    }
+    .text{
+        font-size: 12px;
+        margin: 0 50px;
+    }
+    .pdf{
+        font-size: 12px;
+    }
+    .text-satifaction{
+        padding: 0;
+    }
+    .container{
+        height: 150px;
+        width: 350px;
+        padding: 10%;
+    }
+    .text-satifaction{
+        width: 100%;
+    }
+}
+
