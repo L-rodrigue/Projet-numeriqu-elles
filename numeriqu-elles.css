@@ -1,6 +1,6 @@
 h1{
     color: #67328D;
-    font-size: 36px;
+    font-size: 32px;
     font-weight: bold;
     text-align: center;
     margin-top: 90px;
@@ -13,7 +13,7 @@ h2{
     color: #67328D;
     margin-left: 90px;
     margin-top: 60px;
-    font-size: 24px;
+    font-size: 28px;
     text-align: center;
 }
 input{
@@ -21,11 +21,14 @@ input{
     padding: 10px;
     border-radius: 10%;
     font-size: 18px;
+    height: 40px;
 }
 p{
-    font-size: 14px;
+    font-size: 18px;
 }
-
+span {
+    color: #67328D;
+}
 .containers{
     display: flex;
     flex-wrap: wrap;
@@ -40,32 +43,24 @@ p{
     height: 120px;
     width: 120px;
     padding: 2%;
+    margin: 20px 50px;
 }
 .text{
     font-size: 24px;
     margin-left: 90px;
+    margin-right: 50px;
 }
-
 .section {
-    width: 40%;
-    padding: 40px 0;
+    width: 50%;
     display: flex;
 }
-.section > *{
-    display: inline-block;
-    
-}
 .section2{
-    margin: 0 10%;
+    margin: 20px 10%;
 }
-
-.lock{
-    font-size: 24px;
-    margin-left: 150px;
-    padding: 40px;
+.section2 p {
+    margin-top: 50px;
+    line-height: 30px;
 }
-
-
 .satifaction{
     display: flex;
     margin: 70px;
@@ -74,8 +69,6 @@ p{
     width: 40%;
     padding:  0 100px;
 }
-
-
 @media screen and (max-width: 376px){
     p {
         font-size: 12px;
@@ -85,10 +78,6 @@ p{
     }
     h2 {
         font-size: 18px;
-        margin-left: 0;
-    }
-    .lock{
-        font-size: 12px;
         margin-left: 0;
     }
     .text{
@@ -109,6 +98,5 @@ p{
     .text-satifaction{
         width: 100%;
     }
-    
 }
 
